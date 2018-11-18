@@ -2,7 +2,7 @@
   - hosts: all
     gather_facts: False
     vars_files:
-      - "../host_vars/vars.yml"
+      - "../host_vars/all"
       - "../group_vars/all/vault"
     roles:
       - onboarding

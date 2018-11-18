@@ -1,2 +1,6 @@
 ---
-...
+
+bigip_device_ntp: ntp_server1 = "time.apple.com"
+
+bigip_partition: name = "foo"
+
